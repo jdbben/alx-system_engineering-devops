@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep -cv 'bin' /etc/passwd
+egrep -v 'bin' /etc/passwd
